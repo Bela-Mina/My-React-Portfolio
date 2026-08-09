@@ -13,7 +13,7 @@ html {
 }
 
 
-body {
+html, body {
     font-family: Arial, sans-serif;
     /* overflow-y: scroll; */
    /* background: #0f172a;

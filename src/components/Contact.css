@@ -38,8 +38,8 @@
 
  
 .contact {
-
     padding: 80px 20px;
+
 
 }
 
@@ -130,4 +130,11 @@
 }
 .contact-btn button {
     padding: 20px;
+}
+.contact {
+    width: 400px;
+    border: solid 2px #000;
+    justify-content: center;
+    margin: auto;
+    border-radius: 30px;
 }
