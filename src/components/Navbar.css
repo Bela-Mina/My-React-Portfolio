@@ -1,98 +1,38 @@
-/* .nav h1 {
-    font-family: sans-serif;
-    text-align: center;
 
-}
-.nav li {
-    display: flex;
-    float: left;
-    margin: 0 50px;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-    padding: 20px;
-
-} */
-
-
-
-
-/* .nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px 40px;
-    background: #1e293b;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    position: fixed;
-    top: 0;
-    left: 0;
-     width: 100%; 
-    z-index: 1000;
-}
-.nav ul {
-    display: flex;
-    list-style: none;
-    gap: 30px;
-    padding: 10px
-}
-nav h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 28px
-}
-.nav li {
+    .nav {
+        position: fixed;
+        top: 0; /*this means*/
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 10%;
+        background-color: #1e293b;
+        z-index: 1000;
+        box-shadow: 0 4px 10px rgba(0,0,0,.3);
+    }
+    .nav h1 {
+        color: white;
+        font-size: 2.2rem;
+    }
+    .nav ul {
+        display: flex;
+        gap: 35px;
+        list-style: none;
+    }
+    .nav ul li a {
+        text-decoration: none;
+        color: #cbd5e1;
+        font-size: 18px;
+        transition: .3s;
+    }
+    .nav ul li a:hover {
+        color: #38bdf8;
+    }
+    .theme-btn {
+    border: none;
+    background: transparent;
+    font-size: 24px;
     cursor: pointer;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-
-}
-.nav a:hover {
-    color: rgba(192, 225, 43, 0.52)
-}
-.nav a {
-    text-decoration: none;
-    color: #985e5e;
-    
-} */
-
-/* ===========================
-   NAVBAR
-=========================== */
-
-.nav {
-    position: fixed;
-    top: 0; /*this means*/
-    left: 0;
-    width: 100%;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 10px 10%;
-    background-color: #1e293b;
-
-    z-index: 1000;
-    box-shadow: 0 4px 10px rgba(0,0,0,.3);
-}
-
-.nav h1 {
-    color: white;
-    font-size: 2.2rem;
-}
-
-.nav ul {
-    display: flex;
-    gap: 35px;
-    list-style: none;
-}
-
-.nav ul li a {
-    text-decoration: none;
-    color: #cbd5e1;
-    font-size: 18px;
-    transition: .3s;
-}
-
-.nav ul li a:hover {
-    color: #38bdf8;
 }

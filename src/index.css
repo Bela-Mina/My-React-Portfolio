@@ -16,8 +16,19 @@ html {
 body {
     font-family: Arial, sans-serif;
     /* overflow-y: scroll; */
-    /* background: #0f172a; */
-    background: #f4f4f4;
-    /* color: white; */
-    color: #000
+   /* background: #0f172a;
+    /* background: #f4f4f4; */
+    /*color: white;
+    /* color: #000 */
+}
+.dark-mode {
+    background: #0f172a;
+    color: white;
+    min-height: 100vh;
+}
+
+.light-mode {
+    background: #f8fafc;
+    color: #0f172a;
+    min-height: 100vh;
 }

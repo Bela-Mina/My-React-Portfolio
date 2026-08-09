@@ -1,3 +1,49 @@
+// import Navbar from "./components/Navbar";
+// import Hero from "./components/Hero";
+// import About from "./components/About";
+// import Skills from "./components/Skills";
+// import Projects from "./components/Projects";
+// import Contact from "./components/Contact";
+// import Footer from "./components/Footer";
+// import { useState } from "react";
+
+
+// function App() {
+
+//   const [darkmood, setDarkMood] = useState(true)
+
+//   return (
+
+//     <div className={darkMode ? "container dark mode" : "container light-mode" }>
+
+//       <Navbar
+//         darkMode={darkMode}
+//         setDarkMode={setDarkMode}
+//       />
+
+//       <Hero />
+
+//       <About />
+
+//       <Skills />
+
+//       <Projects />
+
+//       <Contact />
+
+//       <Footer />
+
+//     </div>
+
+//   );
+
+// }
+
+// export default App;
+
+
+import { useState } from "react";
+
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -6,31 +52,38 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-
 function App() {
 
-  return (
+    const [darkMode, setDarkMode] = useState(true);
 
-    <div className="container">
+    return (
+        <div
+            className={
+                darkMode
+                    ? "container dark-mode"
+                    : "container light-mode"
+            }
+        >
 
-      <Navbar />
+            <Navbar
+                darkMode={darkMode}
+                setDarkMode={setDarkMode}
+            />
 
-      <Hero />
+            <Hero />
 
-      <About />
+            <About />
 
-      <Skills />
+            <Skills />
 
-      <Projects />
+            <Projects />
 
-      <Contact />
+            <Contact />
 
-      <Footer />
+            <Footer />
 
-    </div>
-
-  );
-
+        </div>
+    );
 }
 
 export default App;

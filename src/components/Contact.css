@@ -36,7 +36,7 @@
 
 
 
-
+@media (max-width: 768px) {
 .contact {
 
     padding: 80px 20px;
@@ -121,4 +121,5 @@
 
     opacity:0.8;
 
+}
 }
