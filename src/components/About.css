@@ -12,7 +12,7 @@
 
 
 
-@media (max-width: 768px) {
+ 
 .about {
     display: flex;
     justify-content: space-between;
@@ -68,5 +68,4 @@
 .about-content:hover {
     transform: translateY(-5px);
     transition: .3s;
-}
 }
