@@ -1,0 +1,71 @@
+ /* .about {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 10%
+}
+.about-image, .about-content {
+    flex: 1;
+}  */
+/*this mens image 50% and content 50%*/
+
+
+
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 100px 10%;
+    gap: 60px;
+}
+
+.about-image,
+.about-content {
+    flex: 1;
+}
+
+/* Left Side */
+
+.about-image h2 {
+    font-size: 2.5rem;
+    color: #38bdf8;
+    margin-bottom: 20px;
+}
+
+.about-image p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #cbd5e1;
+}
+
+/* Right Side */
+
+.about-content {
+    background-color: #1e293b;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.25);
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    line-height: 1.9;
+    color: #cbd5e1;
+    margin-bottom: 25px;
+}
+
+/* Hover Effect */
+
+.about-content:hover {
+    transform: translateY(-5px);
+    transition: .3s;
+}
