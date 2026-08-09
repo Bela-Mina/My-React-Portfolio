@@ -36,7 +36,7 @@
 
 
 
-@media (max-width: 768px) {
+ 
 .contact {
 
     padding: 80px 20px;
@@ -122,4 +122,12 @@
     opacity:0.8;
 
 }
+.contact-btn {
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    
+}
+.contact-btn button {
+    padding: 20px;
 }
